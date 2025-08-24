@@ -37,9 +37,11 @@ final class NewsCell: UITableViewCell {
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        selectionStyle = .none
+        selectionStyle = .default
+        accessoryType = .disclosureIndicator
         backgroundColor = .black
         contentView.backgroundColor = .black
+       
 
         vstack.axis = .vertical
         vstack.spacing = 6
