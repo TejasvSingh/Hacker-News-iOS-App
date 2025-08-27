@@ -11,7 +11,7 @@
         <!--News View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="NewsViewController" customModule="Hacker_News_iOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="NewsViewController" customModule="Hacker_News_iOS_App" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,6 +24,38 @@
             </objects>
             <point key="canvasLocation" x="973.28244274809151" y="-2.1126760563380285"/>
         </scene>
+        <!--Contacts View Controller-->
+        <scene sceneID="Mky-64-6zM">
+            <objects>
+                <viewController id="Bm9-bk-5Rq" customClass="ContactsViewController" customModule="Hacker_News_iOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CbN-Am-fG7">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Cdj-Fi-aj3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Sle-Tl-qxi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hhk-nu-OnR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="603" y="644"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="r44-0i-An0">
+            <objects>
+                <viewController id="gAu-EC-HiS" customClass="SettingsViewController" customModule="Hacker_News_iOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qrb-TM-WYs">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="F7s-BA-GVh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="158-FG-7WN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lhT-03-TD6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1569" y="1052"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Sfg-Xd-gPr">
             <objects>
@@ -35,7 +67,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="XNx-wu-CU4"/>
+                        <segue destination="Bm9-bk-5Rq" kind="relationship" relationship="rootViewController" id="QWU-ji-6kI"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ewg-DQ-Cow" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
