@@ -83,9 +83,9 @@ final class NewsCell: UITableViewCell {
 
     func configure(with story: Story) {
         titleLabel.text = story.title
-        metaLabel.text = "\(story.author) · \(story.hoursAgo)h ago · by \(story.author)"
-        pointsLabel.text = "\(story.points)"
-        commentsLabel.text = "\(story.comments)"
+        metaLabel.text = "\(String(describing: story.author)) · \(String(describing: story.hoursAgo))h ago · by \(String(describing: story.author))"
+        pointsLabel.text = "\(String(describing: story.points))"
+        commentsLabel.text = "\(String(describing: story.comments))"
     }
 
     private static func icon(systemName: String) -> UIImageView {

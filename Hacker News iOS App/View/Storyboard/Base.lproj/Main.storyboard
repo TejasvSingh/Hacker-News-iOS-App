@@ -8,6 +8,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="1Qv-Mu-VNN">
+            <objects>
+                <viewController id="7lE-xz-mFa" customClass="LoginViewController" customModule="Hacker_News_iOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6rn-mU-9to">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="vLI-zS-wp7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4A8-eu-sPf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cip-xI-6jg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="758" y="6"/>
+        </scene>
         <!--News View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -22,7 +38,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="973.28244274809151" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="1431" y="-2"/>
+        </scene>
+        <!--Details View Controller-->
+        <scene sceneID="mzJ-Qa-9x1">
+            <objects>
+                <viewController id="BTu-Dx-ozb" customClass="DetailsViewController" customModule="Hacker_News_iOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fix-Jl-Mf8">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ZTX-RW-NGU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MGs-uL-j65" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2174" y="-21"/>
         </scene>
         <!--Contacts View Controller-->
         <scene sceneID="Mky-64-6zM">
@@ -67,12 +98,28 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Bm9-bk-5Rq" kind="relationship" relationship="rootViewController" id="eaX-Vx-rVg"/>
+                        <segue destination="5Rx-q9-uYO" kind="relationship" relationship="rootViewController" id="nku-cH-53u"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ewg-DQ-Cow" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
+        </scene>
+        <!--Post View Controller-->
+        <scene sceneID="lLv-FS-ku4">
+            <objects>
+                <viewController id="5Rx-q9-uYO" customClass="PostViewController" customModule="Hacker_News_iOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8QX-8M-zQ7">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="XsC-8K-AKy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QQC-dY-NM7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yQL-6x-tcT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="460" y="707"/>
         </scene>
         <!--First View Controller-->
         <scene sceneID="3xi-aQ-PZl">
@@ -88,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WGi-Bb-vtZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="563" y="656"/>
+            <point key="canvasLocation" x="1155" y="1225"/>
         </scene>
         <!--PresentedVC-->
         <scene sceneID="nhF-n3-6zg">
@@ -103,7 +150,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cPR-dz-01e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1129" y="392"/>
+            <point key="canvasLocation" x="1624" y="445"/>
         </scene>
         <!--Search View Controller-->
         <scene sceneID="1kh-tJ-alX">
