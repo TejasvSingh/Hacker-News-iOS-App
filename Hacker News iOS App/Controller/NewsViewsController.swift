@@ -29,6 +29,7 @@ class NewsViewController: UIViewController {
         navigationController?.navigationBar.standardAppearance = ap
         navigationController?.navigationBar.scrollEdgeAppearance = ap
         navigationController?.navigationBar.tintColor = .white
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Go Back", style: .plain, target: self, action: #selector(handleBackButton))
     }
 
     private func configureTable() {
@@ -49,6 +50,10 @@ class NewsViewController: UIViewController {
         tableView.register(NewsCell.self, forCellReuseIdentifier: NewsCell.reuseID)
         tableView.dataSource = self
         tableView.delegate = self
+    }
+    
+    @objc func handleBackButton() {
+        self.navigationController?.popViewController(animated: true)
     }
 }
 

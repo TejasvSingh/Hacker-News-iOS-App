@@ -63,6 +63,9 @@ class DetailsViewController: UIViewController {
             setupUI()
             configureContent()
         }
+    @objc func handleBackButton() {
+        self.navigationController?.popViewController(animated: true)
+    }
         
         private func setupUI() {
             view.backgroundColor = .black
@@ -74,6 +77,8 @@ class DetailsViewController: UIViewController {
             view.addSubview(pointsLabel)
             view.addSubview(commentsLabel)
             view.addSubview(timeLabel)
+            
+            navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Go Back", style: .plain, target: self, action: #selector(handleBackButton))
             
             // Setup constraints
             NSLayoutConstraint.activate([

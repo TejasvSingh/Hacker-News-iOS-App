@@ -66,36 +66,6 @@
             endingLineNumber = "15"
             landmarkName = "getDataFromServer(closure:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4C502DFE-C68C-4B51-ADE5-3050548EF990 - 95ba764f778a8319"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Hacker_News_iOS_App.PostViewModel.fetchPosts(completion: () -&gt; ()) -&gt; ()"
-                  moduleName = "Hacker News iOS App.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tejasvsingh/Desktop/42Batch/Hacker-News-iOS-App/Hacker%20News%20iOS%20App/ViewModel/PostViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16">
-               </Location>
-               <Location
-                  uuid = "4C502DFE-C68C-4B51-ADE5-3050548EF990 - 777f02b0bb9f40dd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Hacker_News_iOS_App.PostViewModel.fetchPosts(completion: () -&gt; ()) -&gt; ()"
-                  moduleName = "Hacker News iOS App.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tejasvsingh/Desktop/42Batch/Hacker-News-iOS-App/Hacker%20News%20iOS%20App/ViewModel/PostViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

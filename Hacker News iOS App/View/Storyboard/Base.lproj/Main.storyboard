@@ -22,7 +22,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cip-xI-6jg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="758" y="6"/>
+            <point key="canvasLocation" x="1599" y="-1317"/>
+        </scene>
+        <!--Article List Controller-->
+        <scene sceneID="1Ws-fU-LO2">
+            <objects>
+                <viewController id="380-0L-AUw" customClass="ArticleListController" customModule="Hacker_News_iOS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UBD-lw-miW">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="AYK-eg-Kij"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Q9x-2m-w1R"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2aF-gm-gDJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="857" y="-100"/>
         </scene>
         <!--News View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -98,7 +114,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="5Rx-q9-uYO" kind="relationship" relationship="rootViewController" id="nku-cH-53u"/>
+                        <segue destination="380-0L-AUw" kind="relationship" relationship="rootViewController" id="3I2-W1-iT6"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ewg-DQ-Cow" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

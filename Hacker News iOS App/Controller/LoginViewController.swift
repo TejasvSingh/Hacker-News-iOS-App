@@ -96,6 +96,13 @@ final class LoginViewController: UIViewController {
         forgotPasswordButton.setTitleColor(UIColor.blue, for: .normal)
         forgotPasswordButton.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(forgotPasswordButton)
+        
+//        let backButton = UIBarButtonItem()
+//            backButton.title = "Go Back"
+//            navigationItem.backBarButtonItem = backButton
+//            
+//            navigationController?.navigationBar.tintColor = .blue
+        
 
         NSLayoutConstraint.activate([
             userNameTextField.centerXAnchor.constraint(equalTo: view.centerXAnchor),
